@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family: 'Cookie', cursive;
+    font-size: 120px;
+    text-align: center;
+}
+
+#reset{
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 80px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+
+
+
+.linesh{
+    width: 300px;
+    height: 5px;
+    background-color: rgb(216, 35, 35);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.linesv{
+    width: 5px;
+    height: 300px;
+    background-color: rgb(216, 35, 35);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.linesd{
+    width: 5px;
+    height: 424px;
+    background-color: rgb(216, 35, 35);
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(45deg);
+}
+
+.linesh, .linesv, .linesd{
+    display: none;
+}
+
+#line1{
+    top: 36%;
+}
+
+#line3{
+    top: 64%;
+}
+
+#line4{
+    left: 44%;
+}
+#line6{
+    left: 57%
+}
+
+#line8{
+    transform: rotate(135deg);
+}
+
+
+
+#gameover{
+    display: none;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.7);
+
+}
+
+#gameovertitle{
+    font-family: 'Lobster', cursive;
+    margin-top: 310px;
+    color: tomato;
+}
+#winner{
+    color: black;
+    font-family: 'Gluten', cursive;
+    
+    font-size: 50px;
+}
+
+a{
+    background-color: cornflowerblue;
+    font-family: 'Ephesis', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 46%;
+}
